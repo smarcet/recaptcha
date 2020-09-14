@@ -8,10 +8,10 @@ namespace Greggilbert\Recaptcha\Service;
 class CheckRecaptcha implements RecaptchaInterface
 {
 
-    const SERVER = 'http://www.google.com/recaptcha/api';
-    const SERVER_SECURE = 'https://www.google.com/recaptcha/api';
+    const SERVER = 'http://www.recaptcha.net/recaptcha/api';
+    const SERVER_SECURE = 'https://www.recaptcha.net/recaptcha/api';
     const ENDPOINT = '/recaptcha/api/verify';
-    const VERIFY_SERVER = 'www.google.com';
+    const VERIFY_SERVER = 'www.recaptcha.net';
 
     /**
      * Call out to reCAPTCHA and process the response
